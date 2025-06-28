@@ -1,0 +1,408 @@
+{
+  "name": "Form",
+  "nodes": [
+    {
+      "parameters": {
+        "formTitle": "نموذج المبادرات ( البرامج )",
+        "formDescription": ": التعليمات الرئيسية\n.استخدام اللغة العربية الفصحى -\nكتابة جميع المصطلحات البرمجية باللغة الإنجليزية-\nتعبئة جميع خانات النموذج -\nبعد إكمال النموذج، يُرجى إرساله إلى الزميلة هيا الروضان عبر البريد الإلكتروني -\n",
+        "formFields": {
+          "values": [
+            {
+              "fieldType": "html",
+              "elementName": "بيانات المدرب الشخصية",
+              "html": "<b> بيانات المدرب الشخصية </b>\n\n\n"
+            },
+            {
+              "fieldLabel": "الأسم الثلاثي"
+            },
+            {
+              "fieldLabel": "رقم الجوال"
+            },
+            {
+              "fieldLabel": "البريد الإلكتروني"
+            },
+            {
+              "fieldLabel": "الهوية الوطنية"
+            },
+            {
+              "fieldLabel": "رابط السيرة الذاتية"
+            },
+            {
+              "fieldType": "html",
+              "elementName": "بيانات مساعد المدرب الشخصية",
+              "html": "<b> بيانات مساعد المدرب الشخصية </b>\n\n"
+            },
+            {
+              "fieldLabel": "الأسم الثلاثي"
+            },
+            {
+              "fieldLabel": "رقم الجوال"
+            },
+            {
+              "fieldLabel": "البريد الإلكتروني"
+            },
+            {
+              "fieldLabel": "الهوية الوطنية"
+            },
+            {
+              "fieldType": "html",
+              "elementName": "معلومات الإعلان الأساسية",
+              "html": "<b> معلومات الإعلان الأساسية </b>\n\n\n"
+            },
+            {
+              "fieldLabel": "نوع المبادرة",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "برنامج "
+                  },
+                  {
+                    "option": "معسكر"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "عنوان المبادرة بالعربي"
+            },
+            {
+              "fieldLabel": "عنوان المبادرة بالإنجليزي"
+            },
+            {
+              "fieldLabel": "تاريخ ووقت بداية المبادرة ",
+              "placeholder": "May 11, 2025 10:00 AM"
+            },
+            {
+              "fieldLabel": "تاريخ ووقت نهاية المبادرة ",
+              "placeholder": "Jul 10, 2025 3:00 PM"
+            },
+            {
+              "fieldLabel": "أسم الشراكة (إن وجد)"
+            },
+            {
+              "fieldType": "html",
+              "elementName": "تفاصيل المبادرة",
+              "html": "<b> تفاصيل المبادرة </b>\n\n\n"
+            },
+            {
+              "fieldLabel": "مستوى المبادرة",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "مبتدئ"
+                  },
+                  {
+                    "option": "متوسط"
+                  },
+                  {
+                    "option": "متقدم"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "الفئة العمرية",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "كبار"
+                  },
+                  {
+                    "option": "ناشئين"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "نوع التقنية ",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "ناشئة "
+                  },
+                  {
+                    "option": "داعمة"
+                  },
+                  {
+                    "option": "تقليدية"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "مجال المبادرة الأساسي",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "أنظمة الشبكات "
+                  },
+                  {
+                    "option": "الأمن السبراني"
+                  },
+                  {
+                    "option": "البرامج التنفيذية "
+                  },
+                  {
+                    "option": "الحوسبة السحابية"
+                  },
+                  {
+                    "option": "تطوير البرمجيات والتطبيقات"
+                  },
+                  {
+                    "option": "علم البيانات"
+                  },
+                  {
+                    "option": "الذكاء الاصطناعي"
+                  },
+                  {
+                    "option": "هندسة البرمجيات"
+                  },
+                  {
+                    "option": "هندسة الميكاترونكس"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "مجال المبادرة الفرعي"
+            },
+            {
+              "fieldLabel": "لغة البرنامج ",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "اللغة العربية"
+                  },
+                  {
+                    "option": "اللغة الإنجليزية"
+                  },
+                  {
+                    "option": "مدمج"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "مرتبط بالتدريب التعاوني ؟",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "نعم"
+                  },
+                  {
+                    "option": "لا"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "فترة البرنامج ",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "صباحي"
+                  },
+                  {
+                    "option": "مسائي "
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": "آلية الحضور",
+              "fieldType": "dropdown",
+              "fieldOptions": {
+                "values": [
+                  {
+                    "option": "حضوري"
+                  },
+                  {
+                    "option": "عن بعد"
+                  },
+                  {
+                    "option": "مدمج"
+                  }
+                ]
+              }
+            },
+            {
+              "fieldLabel": ":الوصف"
+            },
+            {
+              "fieldLabel": ":الأهداف"
+            },
+            {
+              "fieldLabel": ":المميزات"
+            },
+            {
+              "fieldLabel": ":المتطلبات"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.formTrigger",
+      "typeVersion": 2.2,
+      "position": [
+        -240,
+        -20
+      ],
+      "id": "1262db33-7ea6-468a-920d-78a95899dbf6",
+      "name": "On form submission",
+      "webhookId": "cda8f36f-6757-4423-87a1-c229b08b5883"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=اعطيني وصف ومميزات و اهداف و متطلبات للمبادره بناء على :\nنوع المبادره :\n{{ $json['نوع المبادرة'] }}\nعنوان المبادره بالعربي او الانجليزي :\n{{ $json['عنوان المبادرة بالعربي'] }} {{ $json['عنوان المبادرة بالإنجليزي'] }} \nتاريخ بدايه المبادره ونهايتها :\n{{ $json['تاريخ ووقت بداية المبادرة '] }} {{ $json['تاريخ ووقت نهاية المبادرة '] }}\nمستوى المبادرة :\n{{ $json['مستوى المبادرة'] }}\nالفئه العمرية :\n{{ $json['الفئة العمرية'] }}\nنوع التقنية :\n{{ $json['نوع التقنية '] }}\nمجال المبادرة و الاساسي و الفرعي :\n{{ $json['مجال المبادرة الأساسي'] }}{{ $json['مجال المبادرة الفرعي'] }}\nلغة البرنامج :\n{{ $json['لغة البرنامج '] }}\nمرتبط بتدريب تعاوني او لا :\n{{ $json['مرتبط بالتدريب التعاوني ؟'] }}\nفترة البرنامج :\n{{ $json['فترة البرنامج '] }}\nالية الحضور :\n{{ $json['آلية الحضور'] }}",
+        "hasOutputParser": true,
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.7,
+      "position": [
+        260,
+        -20
+      ],
+      "id": "309c0926-fce5-4b24-91c5-0bfe21ba1db3",
+      "name": "Basic LLM Chain"
+    },
+    {
+      "parameters": {
+        "model": {
+          "__rl": true,
+          "mode": "list",
+          "value": "gpt-4.1-mini"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
+      "typeVersion": 1.2,
+      "position": [
+        120,
+        200
+      ],
+      "id": "9d22a859-03a9-4590-9a67-c1c936db1e92",
+      "name": "OpenAI Chat Model",
+      "credentials": {
+        "openAiApi": {
+          "id": "Cgdzhd3NcQ9kghIh",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "schemaType": "manual",
+        "inputSchema": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"description\": {\n      \"type\": \"string\"\n    },\n    \"advantages\": {\n      \"type\": \"string\"\n    },\n    \"objectives\": {\n      \"type\": \"string\"\n    },\n    \"requirements\": {\n      \"type\": \"string\"\n    }\n  }\n}"
+      },
+      "type": "@n8n/n8n-nodes-langchain.outputParserStructured",
+      "typeVersion": 1.3,
+      "position": [
+        300,
+        240
+      ],
+      "id": "bcc71a99-98f0-4908-b105-5885f7c7968e",
+      "name": "Structured Output Parser"
+    },
+    {
+      "parameters": {
+        "operation": "createFromText",
+        "content": "=بيانات المدرب الشخصية\nبيانات المدرب الشخصية: {{ $('On form submission').item.json['بيانات المدرب الشخصية'] }}\nالاسم الثلاثي: {{ $('On form submission').item.json['الأسم الثلاثي'] }}\nرقم الجوال:{{ $('On form submission').item.json['رقم الجوال'] }}\nالبريد الإلكتروني:{{ $('On form submission').item.json['البريد الإلكتروني'] }}\nالهوية الوطنية: {{ $('On form submission').item.json['الهوية الوطنية'] }}\nرابط السيرة الذاتية: {{ $('On form submission').item.json['رابط السيرة الذاتية'] }}\nبيانات مساعد المدرب\nبيانات مساعد المدرب الشخصية: {{ $('On form submission').item.json['بيانات مساعد المدرب الشخصية'] }}\nمعلومات الإعلان الأساسية: {{ $('On form submission').item.json['معلومات الإعلان الأساسية'] }}\nمعلومات البرنامج الأساسية\nنوع المبادرة: {{ $('On form submission').item.json['نوع المبادرة'] }}\nعنوان المبادرة بالعربي: {{ $('On form submission').item.json['عنوان المبادرة بالعربي'] }}\nعنوان المبادرة بالإنجليزي: {{ $('On form submission').item.json['عنوان المبادرة بالإنجليزي'] }}\nتاريخ ووقت بداية المبادرة: {{ $('On form submission').item.json['تاريخ ووقت بداية المبادرة '] }}\nتاريخ ووقت نهاية المبادرة:{{ $('On form submission').item.json['تاريخ ووقت نهاية المبادرة '] }}\nاسم الشراكة (إن وجد): {{ $('On form submission').item.json['أسم الشراكة (إن وجد)'] }}\nتفاصيل المبادرة\nتفاصيل المبادرة: {{ $('On form submission').item.json['تفاصيل المبادرة'] }}\nمستوى المبادرة: {{ $('On form submission').item.json['مستوى المبادرة'] }}\nالفئة المعمرية: {{ $('On form submission').item.json['الفئة العمرية'] }}\nنوع التقنية:{{ $('On form submission').item.json['نوع التقنية '] }}\nمجال المبادرة الأساسي: {{ $('On form submission').item.json['مجال المبادرة الأساسي'] }}\nمجال المبادرة الفرعي: {{ $('On form submission').item.json['مجال المبادرة الفرعي'] }}\nلغة البرنامج:{{ $('On form submission').item.json['لغة البرنامج '] }}\nمرتبط بالتدريب التعاوني؟: {{ $('On form submission').item.json['مرتبط بالتدريب التعاوني ؟'] }}\nفترة البرنامج: {{ $('On form submission').item.json['فترة البرنامج '] }}\nآلية الحضور: {{ $('On form submission').item.json['آلية الحضور'] }}\nالمحتوى المُولد بالذكاء الاصطناعي\nالوصف:\n{{ $json.output.description }}\nالأهداف:\n{{ $json.output.objectives }}\nالمميزات:\n{{ $json.output.advantages }}\nالمتطلبات:\n{{ $json.output.requirements }}",
+        "name": "Test File ",
+        "driveId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "My Drive"
+        },
+        "folderId": {
+          "__rl": true,
+          "mode": "list",
+          "value": "root",
+          "cachedResultName": "/ (Root folder)"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        620,
+        -20
+      ],
+      "id": "664cc17e-ff53-47e5-92d6-6a73ad870227",
+      "name": "Google Drive",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "cbEMx5yO6ystSrt7",
+          "name": "Google Drive account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "On form submission": {
+      "main": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OpenAI Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Structured Output Parser": {
+      "ai_outputParser": [
+        [
+          {
+            "node": "Basic LLM Chain",
+            "type": "ai_outputParser",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Basic LLM Chain": {
+      "main": [
+        [
+          {
+            "node": "Google Drive",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "c5392412-6436-46b2-8b8c-354e830d0d65",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "88110cc168a6a9cf83ed749b36c9e7593a68028f840b4a25c412e4e6b38c45e5"
+  },
+  "id": "25ScP1ZaZ9XrvSm7",
+  "tags": []
+}
